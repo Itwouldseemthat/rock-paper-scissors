@@ -30,7 +30,7 @@ function getRandomInt(min, max) {
 
 
 function selectItem(item) {
-    playerImg.src=`/img/${item}.png`;
+    playerImg.src=`./img/${item}.png`;
     let random = getRandomInt(1, 3);
     pcImg.src=obj[random];
     scoreTable();
