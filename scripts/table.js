@@ -66,28 +66,28 @@ function gameOverWindow() {
 }
 
 export function scoreTable() {
-    if (playerImg.src === 'http://127.0.0.1:5500/img/rock.png' && pcImg.src === 'http://127.0.0.1:5500/img/scissors.png' ) {
+    if (playerImg.src === './img/rock.png' && pcImg.src === './img/scissors.png' ) {
         doingWhenPlayerwin();
         gameOverWindow();
     }
-    if (playerImg.src === 'http://127.0.0.1:5500/img/scissors.png' && pcImg.src === 'http://127.0.0.1:5500/img/paper.png' ) {
+    if (playerImg.src === './img/scissors.png' && pcImg.src === './img/paper.png' ) {
         doingWhenPlayerwin();
         gameOverWindow();
 
     }
-    if (playerImg.src === 'http://127.0.0.1:5500/img/paper.png' && pcImg.src === 'http://127.0.0.1:5500/img/rock.png' ) {
+    if (playerImg.src === './img/paper.png' && pcImg.src === './img/rock.png' ) {
         doingWhenPlayerwin();
         gameOverWindow();
     }
-    if (playerImg.src === 'http://127.0.0.1:5500/img/rock.png' && pcImg.src === 'http://127.0.0.1:5500/img/paper.png' ) {
+    if (playerImg.src === './img/rock.png' && pcImg.src === './img/paper.png' ) {
         doingWhenPcwin();
         gameOverWindow();
     }
-    if (playerImg.src === 'http://127.0.0.1:5500/img/scissors.png' && pcImg.src === 'http://127.0.0.1:5500/img/rock.png' ) {
+    if (playerImg.src === './img/scissors.png' && pcImg.src === './img/rock.png' ) {
         doingWhenPcwin();
         gameOverWindow();
     }
-    if (playerImg.src === 'http://127.0.0.1:5500/img/paper.png' && pcImg.src === 'http://127.0.0.1:5500/img/scissors.png' ) {
+    if (playerImg.src === './img/paper.png' && pcImg.src === './img/scissors.png' ) {
         doingWhenPcwin();
         gameOverWindow();
     }
