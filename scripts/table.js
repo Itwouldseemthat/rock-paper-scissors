@@ -66,29 +66,28 @@ function gameOverWindow() {
 }
 
 export function scoreTable() {
-    console.log(playerImg.src, pcImg.src)
-    if (playerImg.src === 'http://127.0.0.1:5500/img/rock.png' && pcImg.src === 'http://127.0.0.1:5500/img/scissors.png' ) {
+    if (playerImg.src === 'https://itwouldseemthat.github.io/rock-paper-scissors/img/rock.png' && pcImg.src === 'https://itwouldseemthat.github.io/rock-paper-scissors/img/scissors.png' ) {
         doingWhenPlayerwin();
         gameOverWindow();
     }
-    if (playerImg.src === 'http://127.0.0.1:5500/img/scissors.png' && pcImg.src === 'http://127.0.0.1:5500/img/paper.png' ) {
+    if (playerImg.src === 'https://itwouldseemthat.github.io/rock-paper-scissors/img/scissors.png' && pcImg.src === 'https://itwouldseemthat.github.io/rock-paper-scissors/img/paper.png' ) {
         doingWhenPlayerwin();
         gameOverWindow();
 
     }
-    if (playerImg.src === 'http://127.0.0.1:5500/img/paper.png' && pcImg.src === 'http://127.0.0.1:5500/img/rock.png' ) {
+    if (playerImg.src === 'https://itwouldseemthat.github.io/rock-paper-scissors/img/paper.png' && pcImg.src === 'https://itwouldseemthat.github.io/rock-paper-scissors/img/rock.png' ) {
         doingWhenPlayerwin();
         gameOverWindow();
     }
-    if (playerImg.src === 'http://127.0.0.1:5500/img/rock.png' && pcImg.src === 'http://127.0.0.1:5500/img/paper.png' ) {
+    if (playerImg.src === 'https://itwouldseemthat.github.io/rock-paper-scissors/img/rock.png' && pcImg.src === 'https://itwouldseemthat.github.io/rock-paper-scissors/img/paper.png' ) {
         doingWhenPcwin();
         gameOverWindow();
     }
-    if (playerImg.src === 'http://127.0.0.1:5500/img/scissors.png' && pcImg.src === 'http://127.0.0.1:5500/img/rock.png' ) {
+    if (playerImg.src === 'https://itwouldseemthat.github.io/rock-paper-scissors/img/scissors.png' && pcImg.src === 'https://itwouldseemthat.github.io/rock-paper-scissors/img/rock.png' ) {
         doingWhenPcwin();
         gameOverWindow();
     }
-    if (playerImg.src === 'http://127.0.0.1:5500/img/paper.png' && pcImg.src === 'http://127.0.0.1:5500/img/scissors.png' ) {
+    if (playerImg.src === 'https://itwouldseemthat.github.io/rock-paper-scissors/img/paper.png' && pcImg.src === 'https://itwouldseemthat.github.io/rock-paper-scissors/img/scissors.png' ) {
         doingWhenPcwin();
         gameOverWindow();
     }
