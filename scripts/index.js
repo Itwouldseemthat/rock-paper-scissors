@@ -17,9 +17,9 @@ let btnPaper = document.querySelector('.paper');
 let btnScissors = document.querySelector('.scissors');
 
 let obj = {
-    1: '../img/rock.png',
-    2: '../img/paper.png',
-    3: '../img/scissors.png'
+    1: './img/rock.png',
+    2: './img/paper.png',
+    3: './img/scissors.png'
 }
 
 function getRandomInt(min, max) {
