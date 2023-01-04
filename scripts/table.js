@@ -56,18 +56,29 @@ function restartGame() {
     document.querySelector(".scissors").removeAttribute("disabled")
 }
 
+function disableBtns() {
+    document.querySelector(".bo1").setAttribute("disabled", "true") 
+    document.querySelector(".bo3").setAttribute("disabled", "true") 
+    document.querySelector(".bo5").setAttribute("disabled", "true")
+    document.querySelector(".rock").setAttribute("disabled", "true")
+    document.querySelector(".paper").setAttribute("disabled", "true")
+    document.querySelector(".scissors").setAttribute("disabled", "true")
+}
+
 function gameOverWindow() {
     if (countPlayerScore === gameMode) {
         let winner = 'Player win!';
         createGameOverWindow(winner);
         let restart = document.querySelector('.restart');
         restart.addEventListener('click', restartGame);
+        disableBtns()
     }
     if (countPcScore === gameMode) {
         let winner = 'Pc win!';
         createGameOverWindow(winner);
         let restart = document.querySelector('.restart');
         restart.addEventListener('click', restartGame);
+        disableBtns()
     }
 }
 
