@@ -15,5 +15,12 @@ export function createGameOverWindow(elem) {
     gameOver.prepend(gameOverTitle);
     gameOverTitle.after(restartWrapper);
     restartWrapper.prepend(restart);
+
+    document.querySelector(".bo1").setAttribute("disabled", "true") 
+    document.querySelector(".bo3").setAttribute("disabled", "true") 
+    document.querySelector(".bo5").setAttribute("disabled", "true")
+    document.querySelector(".rock").setAttribute("disabled", "true")
+    document.querySelector(".paper").setAttribute("disabled", "true")
+    document.querySelector(".scissors").setAttribute("disabled", "true")
 }
 
