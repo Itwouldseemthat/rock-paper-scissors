@@ -48,6 +48,12 @@ function restartGame() {
     playerScore.textContent = countPlayerScore;
     countPcScore = 0;
     pcScore.textContent = countPcScore;
+    document.querySelector(".bo1").removeAttribute("disabled") 
+    document.querySelector(".bo3").removeAttribute("disabled") 
+    document.querySelector(".bo5").removeAttribute("disabled")
+    document.querySelector(".rock").removeAttribute("disabled")
+    document.querySelector(".paper").removeAttribute("disabled")
+    document.querySelector(".scissors").removeAttribute("disabled")
 }
 
 function gameOverWindow() {
@@ -63,6 +69,12 @@ function gameOverWindow() {
         let restart = document.querySelector('.restart');
         restart.addEventListener('click', restartGame);
     }
+    document.querySelector(".bo1").setAttribute("disabled", "true") 
+    document.querySelector(".bo3").setAttribute("disabled", "true") 
+    document.querySelector(".bo5").setAttribute("disabled", "true")
+    document.querySelector(".rock").setAttribute("disabled", "true")
+    document.querySelector(".paper").setAttribute("disabled", "true")
+    document.querySelector(".scissors").setAttribute("disabled", "true")
 }
 
 export function scoreTable() {
